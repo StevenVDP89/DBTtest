@@ -1,3 +1,5 @@
+{{ config(materialized='table', location_root ='dbfs:/user/hive/svdp2/diamondsxxx') }}
+
 with SQ
 AS
 (
